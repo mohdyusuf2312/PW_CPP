@@ -2,6 +2,7 @@
 
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 int main(){
     vector<int> v(5);
@@ -10,6 +11,8 @@ int main(){
         cout<<i+1<<" element : ";
         cin>>v[i];
     }
+
+    sort(v.begin(),v.end()); // Add #include<algorithm> to use sort
 
 
     return 0;
