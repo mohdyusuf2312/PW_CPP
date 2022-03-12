@@ -14,6 +14,9 @@ int main(){
 
     sort(v.begin(),v.end()); // Add #include<algorithm> to use sort
 
+    for(int i=0; i<5; i++){
+        cout<<v[i]<<" ";
+    }
 
     return 0;
 }
