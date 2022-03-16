@@ -13,6 +13,7 @@ int main(){
     }
 
     sort(v.begin(),v.end()); // Add #include<algorithm> to use sort
+    reverse(v.begin(), v.end());
 
     for(int i=0; i<5; i++){
         cout<<v[i]<<" ";
